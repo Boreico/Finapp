@@ -1,0 +1,33 @@
+name: finapp
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.17.0
+  fl_chart: ^0.62.0
+  hive_flutter: ^1.1.0
+  hive: ^2.2.3
+  shared_preferences: ^2.1.0
+  http: ^0.13.6
+  flutter_rounded_date_picker: ^3.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  image_path: "assets/icon/icon.png"
+  android: true
+
+flutter:
+  uses-material-design: true
